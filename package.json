@@ -1,0 +1,20 @@
+{
+  "name": "gemini3-chat",
+  "version": "1.0.0",
+  "description": "Gemini 3 AI Chat Application with model switching",
+  "type": "module",
+  "scripts": {
+    "start": "npx tsx src/index.ts",
+    "chat": "npx tsx src/index.ts"
+  },
+  "dependencies": {
+    "@google/genai": "^1.0.0",
+    "dotenv": "^16.4.5",
+    "readline": "^1.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "tsx": "^4.7.0",
+    "typescript": "^5.4.0"
+  }
+}
