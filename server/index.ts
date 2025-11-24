@@ -14,12 +14,13 @@ const ai = new GoogleGenAI({
 });
 
 const MODELS = {
-  '1': { id: 'gemini-2.0-flash', name: 'Gemini 2.0 Flash' },
-  '2': { id: 'gemini-2.0-flash-lite', name: 'Gemini 2.0 Flash Lite' },
-  '3': { id: 'gemini-1.5-pro', name: 'Gemini 1.5 Pro' },
-  '4': { id: 'gemini-1.5-flash', name: 'Gemini 1.5 Flash' },
-  '5': { id: 'gemini-2.5-pro-preview-05-06', name: 'Gemini 2.5 Pro (Preview)' },
-  '6': { id: 'gemini-2.5-flash-preview-05-20', name: 'Gemini 2.5 Flash (Preview)' },
+  '1': { id: 'gemini-3-pro-preview', name: 'Gemini 3 Pro (Preview)' },
+  '2': { id: 'gemini-2.5-pro-preview-05-06', name: 'Gemini 2.5 Pro (Preview)' },
+  '3': { id: 'gemini-2.5-flash-preview-05-20', name: 'Gemini 2.5 Flash (Preview)' },
+  '4': { id: 'gemini-2.0-flash', name: 'Gemini 2.0 Flash' },
+  '5': { id: 'gemini-2.0-flash-lite', name: 'Gemini 2.0 Flash Lite' },
+  '6': { id: 'gemini-1.5-pro', name: 'Gemini 1.5 Pro' },
+  '7': { id: 'gemini-1.5-flash', name: 'Gemini 1.5 Flash' },
 };
 
 app.get('/api/models', (req, res) => {

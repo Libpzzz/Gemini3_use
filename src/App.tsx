@@ -15,7 +15,7 @@ function App() {
   const [input, setInput] = useState('')
   const [loading, setLoading] = useState(false)
   const [models, setModels] = useState<Record<string, Model>>({})
-  const [currentModel, setCurrentModel] = useState('gemini-2.0-flash')
+  const [currentModel, setCurrentModel] = useState('gemini-3-pro-preview')
   const messagesEndRef = useRef<HTMLDivElement>(null)
 
   useEffect(() => {
